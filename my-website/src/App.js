@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './Components/NavBar';
 import MainPage from "./Components/MainPage";
+//import Index from "./Components/Index"
 
 class App extends Component {
 
