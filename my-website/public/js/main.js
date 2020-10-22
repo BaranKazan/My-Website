@@ -138,14 +138,6 @@ $(function () {
 
     function setTotalPageNumber() {
         $('.total-pages-num').html(('0' + $('.content-right .section').length).slice(-2));
-        if($('#entry-title').length){
-            console.log(true)
-        } else {
-            console.log(false)
-        }
-        $(window).on("click", function() {
-            console.log(true)
-        })
     }
 
     function setDataNumberForSections() {
