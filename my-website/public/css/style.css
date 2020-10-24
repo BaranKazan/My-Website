@@ -256,16 +256,11 @@ a.button:hover {
     width: 25px;
     position: relative;
     height: 30px;
-    color: #c6646b;
 }
 
 .current-num span {
     position: absolute;    
     left: 0;    
-}
-
-.total-pages-num {
-    color: #faefff;
 }
 
 .pagination-div {
@@ -300,12 +295,7 @@ a.button:hover {
 .my-info-title {
     font-size: 12px;
     line-height: 100%;
-    color: #f37b83;
     letter-spacing: 5px;
-}
-
-.my-info-content {
-    color: #faefff;
 }
 
 img.my-info-signature {
@@ -325,7 +315,6 @@ img.my-info-signature {
 
 .current-big-num {
     font-size: 160px;
-    -webkit-text-stroke: 3px #c6646b;
     color: transparent;
     font-weight: 800;
     line-height: 100%;
@@ -347,7 +336,6 @@ img.my-info-signature {
     margin-left: -20px;
     bottom: 25px;
     margin-top: -35px;
-    box-shadow: inset 0 0 0 3px #c6646b;
     border-radius: 25px;
     transition: right .5s;
 }

@@ -1,3 +1,38 @@
+:root{
+    --main-color: #d43641;
+    --text-color: #ffffff;
+    --background-color: #232323;
+    --darker-background-color: #101010;
+}
+
 .home-right-part {
     background-image: url(../images/home.jpg);
+}
+
+.content-left{
+    background-color: var(--background-color);
+}
+
+.current-num{
+    color: var(--main-color);
+}
+
+.total-pages-num{
+    color: var(--text-color);
+}
+
+.my-info-title{
+    color: var(--main-color);
+}
+
+.my-info-content{
+    color: var(--text-color)
+}
+
+.current-big-num{
+    -webkit-text-stroke: 3px var(--main-color)
+}
+
+.icon-scroll{
+    box-shadow: inset 0 0 0 4px var(--main-color);
 }
