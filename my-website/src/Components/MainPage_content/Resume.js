@@ -70,7 +70,7 @@ class Resume extends Component {
                                     Phasellus non dui sed eros scelerisque gravida eu lobortis magna. Sed vulputate, lacus blandit posuere aliquet, enim purus dignissim nunc, at efficitur nulla lacus id quam. Morbi feugiat neque a quam viverra auctor.
                                         </p>
 
-                                <img className="my-signature" src="images/signature2.png" alt="" />
+                                <img className="my-signature" src="images/signature.png" alt="" />
                             </div>
                         </div>
                     </div>

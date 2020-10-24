@@ -1,6 +1,7 @@
 :root{
     --main-color: #d43641;
     --darker-main-color: #522629;
+    --navbar-color: #9e121c;
     --text-color: #ffffff;
     --lighter-background-color: #232323;
     --background-color: #171717;
@@ -126,5 +127,33 @@ a.button{
 
 a.button:hover{
     color: var(--text-color);
+    background-color: var(--main-color);
+}
+
+img.my-info-signature{
+    width: 185px;
+}
+
+.category-filter-icon{
+    background-color: var(--text-color);
+}
+
+.category-filter-icon:after{
+    background-color: var(--text-color);
+}
+
+.category-filter-icon:before{
+    background-color: var(--text-color);
+}
+
+.menu-holder{
+    background-color: var(--navbar-color);
+}
+
+.sm-clean a:after{
+    background-color: var(--main-color);
+}
+
+.portfolio-text-holder{
     background-color: var(--main-color);
 }
