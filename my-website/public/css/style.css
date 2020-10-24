@@ -47,7 +47,6 @@ body {
     font-size: 15px;    
     line-height: 30px;
     font-weight: 400;       
-    color: #a88590;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -104,8 +103,6 @@ p {
 
 a.button {
     display: inline-block;
-    color: #faefff;
-    border: 2px solid #f37b83;
     text-align: center;
     padding: 12px 38px;
     cursor: pointer;
@@ -118,11 +115,6 @@ a.button {
 a.button:active {
     position: relative;
     top: 1px;   
-}
-
-a.button:hover {
-    color: white;
-    background-color: #f37b83;
 }
 
 
@@ -361,7 +353,6 @@ img.my-info-signature {
     content: "";
     position: absolute;
     z-index: -1;
-    background-color: #362b2e;
     width: 58px;
     height: 80px;
     border-radius: 25px;
@@ -501,7 +492,6 @@ img.my-info-signature {
 }
 
 .section {
-    background-color: #302729;
     position: relative;
     padding-top: 150px;
 }
@@ -522,7 +512,6 @@ img.my-info-signature {
     display: flex;
     display: -webkit-flex;
     align-items: center;
-    background-color: #f9f0ff;
 }
 
 h2.section-title {
@@ -552,14 +541,12 @@ h2.section-title {
 
 .site-des {
     font-size: 28px;
-    color: #492d31;
 }
 
 h1.entry-title {
     font-size: 100px;
     line-height: 94px;
     font-weight: 800;
-    color: #f37b83;
 }
 
 .site-info {
@@ -610,7 +597,6 @@ h1.entry-title {
 .service-title {
     font-size: 28px;
     line-height: 42px;
-    color: #F37b83;
     font-weight: 700;
 }
 
@@ -1065,7 +1051,6 @@ li.timeline-event:before {
     width: 3px;
     height: calc(100% - 20px);
     position: absolute;
-    background-color: #f37b83;
     left: -30px;
     top: 51px;
 }
@@ -1107,7 +1092,6 @@ span.timeline-circle:before {
     width: 35px;
     height: 35px;
     border-radius: 90%;
-    border: 3px solid #f37b83;
     position: absolute;
     left: -16px;
     top: 3px;
@@ -1120,7 +1104,6 @@ span.timeline-circle:before {
     left: -115px;
     top: 2px;
     transition: .3s;
-    color: #f37b83;
     font-weight: 700;
 }
 
@@ -1168,13 +1151,11 @@ span.skill-circle-num {
     transform: translate(-50%, -50%);
     font-size: 45px;
     font-weight: 700;
-    color: #f37b83;
     letter-spacing: -1px;
 }
 
 p.skill-circle-text {
     font-size: 22px;
-    color: #f37b83;
     text-align: center;
     padding-top: 20px;
     letter-spacing: -1px;
@@ -1226,7 +1207,6 @@ p.skill-circle-text {
 .skill-fill {
     width: 10%;
     height: 22px;
-    background-color: #f37b83;
     transform: translateY(-5px);
     transition: width .7s;
 }
@@ -1243,7 +1223,6 @@ p.skill-circle-text {
 
 .contact-form {
     padding: 65px;
-    background-color: #f37b83;
 }
 
 .contact-form p {

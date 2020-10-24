@@ -12,28 +12,28 @@ class Skills extends Component {
 
                             <div className="skill-circle-holder">
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.82" data-color="#f37b83" data-empty-color="#554247">
+                                    <div className="skill-circle-wrapper relative" data-value="0.82" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">Photoshop</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.6" data-color="#f37b83" data-empty-color="#554247">
+                                    <div className="skill-circle-wrapper relative" data-value="0.6" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">Marketing</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.75" data-color="#f37b83" data-empty-color="#554247">
+                                    <div className="skill-circle-wrapper relative" data-value="0.75" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">PhP</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.31" data-color="#f37b83" data-empty-color="#554247">
+                                    <div className="skill-circle-wrapper relative" data-value="0.31" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">3D</p>
