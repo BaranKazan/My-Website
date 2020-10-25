@@ -14,7 +14,7 @@ class Service extends Component {
                                         <img src="images/service1.png" alt="" />
                                         <h4 className="service-title">Front-end</h4>
                                         <div className="service-text">
-                                            Developing modern looking graphical interfaces for the user to have a wonderful experience interface to interact with.
+                                            Developing modern looking graphical interfaces for the user to have a wonderful experience interfaces to interact with.
                                                 </div>
                                     </div>
 
@@ -30,7 +30,7 @@ class Service extends Component {
                                         <img src="images/service3.png" alt="" />
                                         <h4 className="service-title">Clean code</h4>
                                         <div className="service-text">
-                                            Vestibulum consequat, dignissim tellus sollicitudin vulputate elit aliquet ullamcorper feugiat nisi
+                                            Writing non-repetitive as well as easily understandable and changeable code for other developers to under.
                                                 </div>
                                     </div>
 
