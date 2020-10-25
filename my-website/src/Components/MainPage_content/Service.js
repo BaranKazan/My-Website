@@ -12,15 +12,15 @@ class Service extends Component {
                                 <div className="services-wrapper">
                                     <div className="service-holder">
                                         <img src="images/service1.png" alt="" />
-                                        <h4 className="service-title">Design</h4>
+                                        <h4 className="service-title">Front-end</h4>
                                         <div className="service-text">
-                                            A full stack allaround designer that may or may not include a guide for specific creative people
-                                                </div>  
+                                            Developing modern looking graphical interfaces for the user to have a wonderful experience interface to interact with.
+                                                </div>
                                     </div>
 
                                     <div className="service-holder m-right-0">
                                         <img src="images/service2.png" alt="" />
-                                        <h4 className="service-title">Develop</h4>
+                                        <h4 className="service-title">Back-end</h4>
                                         <div className="service-text">
                                             Tellus pharetra erat tristique erat donec dignissim etiam sed malesik enim sodales lorem ipsum
                                                 </div>
@@ -28,7 +28,7 @@ class Service extends Component {
 
                                     <div className="service-holder m-bottom-0">
                                         <img src="images/service3.png" alt="" />
-                                        <h4 className="service-title">Write</h4>
+                                        <h4 className="service-title">Clean code</h4>
                                         <div className="service-text">
                                             Vestibulum consequat, dignissim tellus sollicitudin vulputate elit aliquet ullamcorper feugiat nisi
                                                 </div>
@@ -36,7 +36,7 @@ class Service extends Component {
 
                                     <div className="service-holder m-right-0 m-bottom-0">
                                         <img src="images/service4.png" alt="" />
-                                        <h4 className="service-title">Promote</h4>
+                                        <h4 className="service-title">Adaptve</h4>
                                         <div className="service-text">
                                             Quam facilisi nunc faucibus at porttitor vestibulum consequat dignissim tellus sollicitudin
                                                 </div>

@@ -7,7 +7,10 @@ class Header extends Component {
             <div id="portfolio" className="section">
                 <div className="section-wrapper block">
                     <div className="content-1300">
-                        <div id="portfolio-wrapper" className="relative">
+                    <h2 className="entry-title section-title">Portfolio</h2>
+                    <p className="site-des">Coming out soon ;)</p>
+
+                        {/* <div id="portfolio-wrapper" className="relative">
                             <div className="category-filter">
                                 <div className="category-filter-icon"></div>
                             </div>
@@ -94,7 +97,7 @@ class Header extends Component {
                                 </div>
 
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
