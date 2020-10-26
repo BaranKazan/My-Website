@@ -12,31 +12,31 @@ class Skills extends Component {
 
                             <div className="skill-circle-holder">
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.82" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.92" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
-                                    <p className="skill-circle-text">Photoshop</p>
+                                    <p className="skill-circle-text">Java</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.6" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.83" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
-                                    <p className="skill-circle-text">Marketing</p>
+                                    <p className="skill-circle-text">Python</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.75" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.81" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
-                                    <p className="skill-circle-text">PhP</p>
+                                    <p className="skill-circle-text">C#</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.31" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.76" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
-                                    <p className="skill-circle-text">3D</p>
+                                    <p className="skill-circle-text">JavaScript</p>
                                 </div>
                             </div>
                         </div>
@@ -48,21 +48,11 @@ class Skills extends Component {
                                     <div className="skill-holder">
                                         <div className="skill-text">
                                             <div className="skill">
-                                                <div className="skill-fill" data-fill="75%"></div>
+                                                <div className="skill-fill" data-fill="93%"></div>
                                             </div>
-                                            <span>Creativity</span>
+                                            <span>Agile Software Development</span>
                                         </div>
-                                        <div className="skill-percent">75%</div>
-                                    </div>
-
-                                    <div className="skill-holder">
-                                        <div className="skill-text">
-                                            <div className="skill">
-                                                <div className="skill-fill" data-fill="48%"></div>
-                                            </div>
-                                            <span>Cooking</span>
-                                        </div>
-                                        <div className="skill-percent">48%</div>
+                                        <div className="skill-percent">93%</div>
                                     </div>
                                 </div>
                             </div>
@@ -72,21 +62,11 @@ class Skills extends Component {
                                     <div className="skill-holder">
                                         <div className="skill-text">
                                             <div className="skill">
-                                                <div className="skill-fill" data-fill="90%"></div>
+                                                <div className="skill-fill" data-fill="79%"></div>
                                             </div>
-                                            <span>PhP</span>
+                                            <span>Machine Learning</span>
                                         </div>
-                                        <div className="skill-percent">90%</div>
-                                    </div>
-
-                                    <div className="skill-holder">
-                                        <div className="skill-text">
-                                            <div className="skill">
-                                                <div className="skill-fill" data-fill="62%"></div>
-                                            </div>
-                                            <span>Marketing</span>
-                                        </div>
-                                        <div className="skill-percent">62%</div>
+                                        <div className="skill-percent">79%</div>
                                     </div>
                                 </div>
                             </div>

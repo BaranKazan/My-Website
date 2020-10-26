@@ -22,7 +22,7 @@ class Service extends Component {
                                         <img src="images/service2.png" alt="" />
                                         <h4 className="service-title">Back-end</h4>
                                         <div className="service-text">
-                                            Tellus pharetra erat tristique erat donec dignissim etiam sed malesik enim sodales lorem ipsum
+                                            
                                                 </div>
                                     </div>
 
@@ -30,7 +30,7 @@ class Service extends Component {
                                         <img src="images/service3.png" alt="" />
                                         <h4 className="service-title">Clean code</h4>
                                         <div className="service-text">
-                                            Writing non-repetitive as well as easily understandable and changeable code for other developers to under.
+                                            Writing non-repetitive as well as easily understandable and changeable code for other developers to understand.
                                                 </div>
                                     </div>
 
@@ -38,7 +38,7 @@ class Service extends Component {
                                         <img src="images/service4.png" alt="" />
                                         <h4 className="service-title">Adaptve</h4>
                                         <div className="service-text">
-                                            Quam facilisi nunc faucibus at porttitor vestibulum consequat dignissim tellus sollicitudin
+                                            Responsive to the changes that are required by the customer and can comfortably fit in a team environment.
                                                 </div>
                                     </div>
                                 </div>
@@ -47,13 +47,13 @@ class Service extends Component {
                             <div className="one-half width-40 last">
                                 <h2 className="entry-title section-title">Services</h2>
                                 <p className="section-info">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
+                                I want to be a full-stack developer because I like doing the front- and back-end development. I choose to be both a front-end and back-end developer because I like designing graphical interfaces since I started programming and languages such as Java, Python, and C# are currently my favorite languages that are mostly used for back-end services. 
                                         </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet.
+                                I have done several front-end developments, such as creating a website for my customer and school projects. The tricky part was not developing the code but creating a good UX for the users without going overboard with the UI.
                                         </p>
                                 <p>
-                                    Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat maecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Volutpat faucibus
+                                I have done many back-end projects from creating a simple calculator to transfer learning, a machine learning technique used to have a more precise model. I have created several API, especially in the school projects, together with the class that can communicate with the database and the website that was created for the later projects.
                                         </p>
 
                                 <div className="button-group-wrapper">

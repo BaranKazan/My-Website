@@ -12,18 +12,17 @@ class Contact extends Component {
                                             <div className="one-half width-40">
 
                                                 <p className="section-info">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.
+                                                    Hello
                                         </p>
                                                 <p>
-                                                    Magni dolores eos qui sed quia consequuntur ratione voluptatem sequi nesciunt permano Nence of the stars from which we spring muse about as a patch of light billions upon billions.
+                                                    Hello
                                         </p>
                                                 <p>
-                                                    Energy hidden in matter a mote of lorem ipsum dust suspended in a sunbeam billions upon ratione voluptatem sequi nesciunt permano lorem ipsum.
+                                                    Hello
                                         </p>
                                                 <p>
-                                                    <b>ADDRESS:</b> Some Street 987, USA <br />
-                                                    <b>EMAIL:</b> company@youremail.com <br />
-                                                    <b>WEBSITE:</b> www.yourwebsite.com <br />
+                                                    <b>ADDRESS:</b> Åkerstigen 3D, 804 29 Gävle <br />
+                                                    <b>WEBSITE:</b> www.barankazan.com <br />
                                                 </p>
                                             </div>
 
