@@ -22,8 +22,8 @@ class Service extends Component {
                                         <img src="images/service2.png" alt="" />
                                         <h4 className="service-title">Back-end</h4>
                                         <div className="service-text">
-                                            
-                                                </div>
+
+                                        </div>
                                     </div>
 
                                     <div className="service-holder m-bottom-0">
@@ -47,13 +47,16 @@ class Service extends Component {
                             <div className="one-half width-40 last">
                                 <h2 className="entry-title section-title">Services</h2>
                                 <p className="section-info">
-                                I want to be a full-stack developer because I like doing the front- and back-end development. I choose to be both a front-end and back-end developer because I like designing graphical interfaces since I started programming and languages such as Java, Python, and C# are currently my favorite languages that are mostly used for back-end services. 
+                                    I chose to be a full-stack developer because I like doing both the front- and back-end development.
                                         </p>
                                 <p>
-                                I have done several front-end developments, such as creating a website for my customer and school projects. The tricky part was not developing the code but creating a good UX for the users without going overboard with the UI.
+                                    From the beginning, it was complicated to choose if I wanted to be a front- or back-end developer. Then I asked myself, why not both? I choose to be both a front-end and back-end developer because I like designing graphical interfaces since I started programming and languages such as Java, Python, and C# are currently my favorite languages that are mostly used for back-end services.
                                         </p>
                                 <p>
-                                I have done many back-end projects from creating a simple calculator to transfer learning, a machine learning technique used to have a more precise model. I have created several API, especially in the school projects, together with the class that can communicate with the database and the website that was created for the later projects.
+                                    I have done several front-end developments, such as creating a website for my customer and school projects. The tricky part was not developing the code but creating a good UX for the users without going overboard with the UI.
+                                        </p>
+                                <p>
+                                    I have done many back-end projects from creating a simple calculator to transfer learning, a machine learning technique used to have a more precise model. I have created several API, especially in the school projects, together with the class that can communicate with the database and the website that was created for the later projects.
                                         </p>
 
                                 <div className="button-group-wrapper">

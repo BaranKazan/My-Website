@@ -20,10 +20,6 @@ class Contact extends Component {
                                                 <p>
                                                     Hello
                                         </p>
-                                                <p>
-                                                    <b>ADDRESS:</b> Åkerstigen 3D, 804 29 Gävle <br />
-                                                    <b>WEBSITE:</b> www.barankazan.com <br />
-                                                </p>
                                             </div>
 
                                             <div className="one-half width-55 last">
