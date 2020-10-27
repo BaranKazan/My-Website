@@ -52,12 +52,7 @@ class NavBar extends Component {
                                         <p className="my-info-title">EMAIL</p>
                                         <p className="my-info-content">Baran.Kazan@hotmail.com</p>
                                     </div>
-
-                                    <div className="my-info">
-                                        <p className="my-info-title">PHONE</p>
-                                        <p className="my-info-content">+46 76 328 03 03</p>
-                                    </div>
-
+                                    
                                     <img className="my-info-signature" src="images/signature.png" alt="" />
                                 </div>
 
