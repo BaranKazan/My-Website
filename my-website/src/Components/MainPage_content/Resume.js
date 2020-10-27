@@ -15,17 +15,17 @@ class Resume extends Component {
                                     <li className="timeline-event">
                                         <span className="timeline-circle"></span>
                                         <div className="timeline-event-content">
-                                            <b>2014 - 2017</b> Hello
+                                            <b>2017 - 2020:</b> Bachelor degree as a Computer Engineer at the University of Gävle
                                                 </div>
-                                        <div className="timeline-event-date">2014</div>
+                                        <div className="timeline-event-date">2017</div>
                                     </li>
 
                                     <li className="timeline-event">
                                         <span className="timeline-circle"></span>
                                         <div className="timeline-event-content">
-                                            <b>2017 - 2020</b> Hello
+                                            <b>2014 - 2017:</b> Information and Media Technology program at Polhemsskolan in Gävle
                                                 </div>
-                                        <div className="timeline-event-date">2017</div>
+                                        <div className="timeline-event-date">2014</div>
                                     </li>
                                 </ul>
                             </div>

@@ -56,11 +56,11 @@ class Service extends Component {
                                     I have done several front-end developments, such as creating a website for my customer and school projects. The tricky part was not developing the code but creating a good UX for the users without going overboard with the UI.
                                         </p>
                                 <p>
-                                    I have done many back-end projects from creating a simple calculator to transfer learning, a machine learning technique used to have a more precise model. I have created several API, especially in the school projects, together with the class that can communicate with the database and the website that was created for the later projects.
+                                I have done many back-end projects from managing the database to transfer learning, a machine learning technique used to have a more precise model. I have created several API, especially in the school projects, together with the class that can communicate with the database and the website that was created for the later projects. 
                                         </p>
 
                                 <div className="button-group-wrapper">
-                                    <a className="button" href="https://youtu.be/sOnqjkJTMaA?t=580">Download CV</a>
+                                    <a className="button" href="https://youtu.be/sOnqjkJTMaA?t=580" target="_blank" rel="noopener noreferrer">Download CV</a>
                                     <a href="#portfolio" className="button">Check My Portfolio</a>
                                 </div>
                             </div>

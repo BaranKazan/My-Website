@@ -12,21 +12,21 @@ class Skills extends Component {
 
                             <div className="skill-circle-holder">
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.92" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.88" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">Java</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.83" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.81" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">Python</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.81" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.80" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">C#</p>
