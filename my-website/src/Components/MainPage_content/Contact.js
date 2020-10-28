@@ -13,8 +13,7 @@ class Contact extends Component {
             validEmail: null,
             validMessage: null,
 
-            successMessage: false,
-            failedMessage: false
+            messageRecived: false
         }
     }
 
@@ -35,24 +34,28 @@ class Contact extends Component {
                                         </p>
                             </div>
                             <div className="one-half width-55 last">
-                                <div className="contact-form" onSubmit={this.buttonClicked}>
-                                    <form>
-                                        <p>
-                                            <input id="name" type="text" name="name" placeholder="Full name*" onChange={this.changeName} />
-                                        </p>
-                                        <p>
-                                            <input id="email" type="email" name="email" placeholder="Email*" onChange={this.changeEmail} />
-                                        </p>
-                                        <p>
-                                            <input id="subject" type="text" name="subject" placeholder="Subject" />
-                                        </p>
-                                        <p>
-                                            <textarea id="message" name="message" placeholder="Message*" onChange={this.changeMessage} />
-                                        </p>
-                                        <p className="contact-submit-holder">
-                                            <input type="submit" value="SEND"/>
-                                        </p>
-                                    </form>
+                                <div className="contact-form">
+                                    {!this.state.messageRecived ?
+                                        <form onSubmit={this.buttonClicked}>
+                                            <p>
+                                                <input id="name" type="text" name="name" placeholder="Full name*" onChange={this.changeName} />
+                                            </p>
+                                            <p>
+                                                <input id="email" type="email" name="email" placeholder="Email*" onChange={this.changeEmail} />
+                                            </p>
+                                            <p>
+                                                <input id="subject" type="text" name="subject" placeholder="Subject" />
+                                            </p>
+                                            <p>
+                                                <textarea id="message" name="message" placeholder="Message*" onChange={this.changeMessage} />
+                                            </p>
+                                            <p className="contact-submit-holder">
+                                                <input type="submit" value="SEND" />
+                                            </p>
+                                        </form>
+                                        :
+                                        <p className="section-info">The message has been recived!</p>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -101,10 +104,10 @@ class Contact extends Component {
         emailjs.sendForm('service_bvf8f8s', 'template_ijwdd0s', this.state.eventTarget, 'user_tiZidkGI3U0Mv4FPxXAlO')
             .then((result) => {
                 console.log(result.text);
-                this.setState({ successMessage: true })
+                this.setState({ messageRecived: true })
+                console.log(this.state.messageRecived)
             }, (error) => {
                 console.log(error.text);
-                this.setState({ failedMessage: true })
             });
     }
 
