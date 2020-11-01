@@ -36,7 +36,7 @@ class Service extends Component {
 
                                     <div className="service-holder m-right-0 m-bottom-0">
                                         <img src="images/service4.png" alt="" />
-                                        <h4 className="service-title">Adaptve</h4>
+                                        <h4 className="service-title">Adaptive</h4>
                                         <div className="service-text">
                                             Responsive to the changes that are required by the customer and can comfortably fit in a team environment.
                                                 </div>
