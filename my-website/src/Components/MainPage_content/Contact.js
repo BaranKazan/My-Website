@@ -30,7 +30,7 @@ class Contact extends Component {
                                     Do not hesitate to contact me!
                                         </p>
                                 <p>
-                                    If there are any questions, such as if I have any experience with something I haven't mentioned or other questions, please make sure to contact me then.
+                                    If there are any questions, such as if I have any experience with something I haven't mentioned, please make sure to contact me then.
                                         </p>
                             </div>
                             <div className="one-half width-55 last">
