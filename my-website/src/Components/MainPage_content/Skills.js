@@ -62,13 +62,34 @@ class Skills extends Component {
                                     <div className="skill-holder">
                                         <div className="skill-text">
                                             <div className="skill">
-                                                <div className="skill-fill" data-fill="79%"></div>
+                                                <div className="skill-fill" data-fill="83%"></div>
                                             </div>
-                                            <span>Machine Learning</span>
+                                            <span>Git</span>
                                         </div>
-                                        <div className="skill-percent">79%</div>
+                                        <div className="skill-percent">83%</div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="competencies">
+                                <span>TDD</span>
+                                <span>DDD</span>
+                                <span>CI</span>
+                                <span>Design Patterns</span>
+                                <span>Object-oriented Design</span>
+                                <span>CAD</span>
+                                <span>Artificiell intelligens</span>
+                                <span>Machine Learning</span>
+                                <span>HTML</span>
+                                <span>XML</span>
+                                <span>CSS</span>
+                                <span>React.js</span>
+                                <span>Mobile App Developer</span>
+                                <span>.NET</span>
+                                <span>Xamarin</span>
+                                <span>Maven</span>
+                                <span>Linux</span>
                             </div>
                         </div>
                     </div>
