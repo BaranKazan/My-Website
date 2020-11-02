@@ -22,7 +22,7 @@ class Service extends Component {
                                         <img src="images/service2.png" alt="" />
                                         <h4 className="service-title">Back-end</h4>
                                         <div className="service-text">
-
+                                        Developing code using different design patterns and making sure that it works by creating a unit or integration test. 
                                         </div>
                                     </div>
 
