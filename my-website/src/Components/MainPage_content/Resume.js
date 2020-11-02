@@ -34,7 +34,7 @@ class Resume extends Component {
                                 </ul>
                             </div>
 
-                            <div className="one-half width-40 last">
+                            {/* <div className="one-half width-40 last">
                                 <h2 className="entry-title section-title">Cover letter</h2>
                                 <p className="section-info">
                                     Hello
@@ -50,7 +50,7 @@ class Resume extends Component {
                                         </p>
 
                                 <img className="my-signature" src="images/signature.png" alt="" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
