@@ -85,6 +85,7 @@ class Skills extends Component {
                                 <span>XML</span>
                                 <span>CSS</span>
                                 <span>React.js</span>
+                                <span>Node.js</span>
                                 <span>Mobile App Developer</span>
                                 <span>.NET</span>
                                 <span>Xamarin</span>

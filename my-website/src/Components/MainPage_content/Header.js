@@ -16,7 +16,6 @@ class Header extends Component {
                             <a href="https://www.linkedin.com/in/baran-kazan-13927317a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                             <a href="https://www.instagram.com/barankazan/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
                         </div>
-
                     </div>
                     <div className="home-right-part">
                     </div>
