@@ -12,7 +12,6 @@ class Header extends Component {
                         <p className="site-info">
                             I'm an educated computer engineer and, my ambition is to be the best full-stack developer as well as I can .
                                 </p>
-
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/baran-kazan-13927317a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                             <a href="https://www.instagram.com/barankazan/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
