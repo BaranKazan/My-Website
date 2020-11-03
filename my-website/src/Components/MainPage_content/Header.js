@@ -15,6 +15,9 @@ class Header extends Component {
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/baran-kazan-13927317a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                             <a href="https://www.instagram.com/barankazan/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+                            <br/>
+                            <a href="https://github.com/BaranKazan" target="_blank" rel="noopener noreferrer">GITHUB</a>
+                            <a href="https://gitlab.com/BaranKazan" target="_blank" rel="noopener noreferrer">GITLAB</a>
                         </div>
                     </div>
                     <div className="home-right-part">
