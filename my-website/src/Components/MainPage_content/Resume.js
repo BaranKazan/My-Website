@@ -34,23 +34,16 @@ class Resume extends Component {
                                 </ul>
                             </div>
 
-                            {/* <div className="one-half width-40 last">
+                            <div className="one-half width-40 last">
                                 <h2 className="entry-title section-title">Cover letter</h2>
-                                <p className="section-info">
-                                    Hello
+                                <p>
+                                Technology and trends are growing faster than ever, and it needs developers to grow. We never know what the next trend might be, but I sure hell want to call dibs for the front seat. Technology is the closest we can get to magic and has more potential than anything in this world. It has improved many people's life quality, such as communication and accessibility of their world.
                                         </p>
                                 <p>
-                                    Hello
+                                The developers need to hone their skills if the tech is going to grow. I would love to be the kind of developer that can develop anything and be there for the future. So whenever I got the chance to learn something new, if it is in school or in free time, that's my opportunity to sharpen my skills. I would love to learn new things such as different languages, libraries, and tools to be a better developer to take one step closer to my ambitions and dreams. 
                                         </p>
-                                <p>
-                                    Hello
-                                        </p>
-                                <p>
-                                    Hello
-                                        </p>
-
                                 <img className="my-signature" src="images/signature.png" alt="" />
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
