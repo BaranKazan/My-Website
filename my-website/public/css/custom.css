@@ -170,12 +170,6 @@ img.my-info-signature {
     color: var(--main-color);
 }
 
-/* Shall be removed when portfolio is done */
-
-#portfolio p {
-    margin-bottom: 0px;
-}
-
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px var(--main-color) inset !important;
 }
@@ -200,6 +194,30 @@ input:-webkit-autofill {
     padding: 10px;
 }
 
+.close-icon{
+    background-color: var(--main-color);
+    background-image: url(../images/close-left-arrow.png);
+}
+
+div.pp_default .pp_close {
+ background-image: url(../images/close.png);
+}
+
+div.pp_default a.pp_arrow_previous{
+    background-image: url(../images/nav_left.png);
+}
+
+div.pp_default a.pp_arrow_next{
+    background-image: url(../images/nav_right.png);
+}
+
+div.pp_default .pp_previous:hover {
+    background-image: url(../images/nav_left.png);
+}
+
+div.pp_default .pp_next:hover{
+    background-image: url(../images/nav_right.png);
+}
 
 @media screen and (max-width: 1020px) {
     .competencies span{

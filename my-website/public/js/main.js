@@ -14,7 +14,6 @@ $(function () {
     setSlowScroll();
     setPortfolio();
     setActiveMenuItem();
-    portfolioItemContentLoadOnClick();
 
 
     $(window).on('load', function () {
@@ -256,71 +255,6 @@ $(function () {
             $('#toggle').on("click", multiClickFunctionStop);
             next();
         });
-    }
-
-    function portfolioItemContentLoadOnClick() {
-        $('.ajax-portfolio').on('click', function (e) {
-            e.preventDefault();
-            var portfolioItemID = $(this).data('id');
-            $(this).closest('.grid-item').addClass('portfolio-content-loading');
-            $('#portfolio-grid').addClass('portfoio-items-mask');
-            if ($("#pcw-" + portfolioItemID).length) {
-                $('html, body').animate({scrollTop: $('#portfolio-wrapper').offset().top - 150}, 400);
-                setTimeout(function () {
-                    $('#portfolio-grid, .category-filter, .category-filter-list').addClass('hide');
-                    setTimeout(function () {
-                        $("#pcw-" + portfolioItemID).addClass('show');
-                        $('.portfolio-load-content-holder').addClass('show');
-                        $('.grid-item').removeClass('portfolio-content-loading');
-                        $('#portfolio-grid, .category-filter').hide().removeClass('portfoio-items-mask');
-                    }, 300);
-                }, 500);
-            } else {
-                loadPortfolioItemContent(portfolioItemID);
-            }
-        });
-    }
-
-    function loadPortfolioItemContent(portfolioItemID) {
-        $.ajax({
-            url: $('.ajax-portfolio[data-id="' + portfolioItemID + '"]').attr('href'),
-            type: 'GET',
-            success: function (html) {
-                var getPortfolioItemHtml = $(html).find(".portfolio-item-wrapper").html();
-                $('.portfolio-load-content-holder').append('<div id="pcw-' + portfolioItemID + '" class="portfolio-content-wrapper">' + getPortfolioItemHtml + '</div>');
-                if (!$("#pcw-" + portfolioItemID + " .close-icon").length) {
-                    $("#pcw-" + portfolioItemID).prepend('<div class="close-icon"></div>');
-                }
-                $('html, body').animate({scrollTop: $('#portfolio-wrapper').offset().top - 150}, 400);
-                setTimeout(function () {
-                    $("#pcw-" + portfolioItemID).imagesLoaded(function () {
-                        imageSliderSetUp();
-                        setSlowScroll();
-                        $('#portfolio-grid, .category-filter, .category-filter-list').addClass('hide');
-                        setTimeout(function () {
-                            $("#pcw-" + portfolioItemID).addClass('show');
-                            $('.portfolio-load-content-holder').addClass('show');
-                            $('.grid-item').removeClass('portfolio-content-loading');
-                            $('#portfolio-grid').hide().removeClass('portfoio-items-mask');
-                        }, 300);
-                        $('.close-icon').on('click', function (e) {
-                            var portfolioReturnItemID = $(this).closest('.portfolio-content-wrapper').attr("id").split("-")[1];
-                            $('.portfolio-load-content-holder').addClass("viceversa");
-                            $('#portfolio-grid, .category-filter').css('display', 'block');
-                            setTimeout(function () {
-                                $('#pcw-' + portfolioReturnItemID).removeClass('show');
-                                $('.portfolio-load-content-holder').removeClass('viceversa show');
-                                $('#portfolio-grid, .category-filter, .category-filter-list').removeClass('hide');
-                            }, 300);
-                            setTimeout(function () {
-                                $('html, body').animate({scrollTop: $('#p-item-' + portfolioReturnItemID).offset().top - 150}, 400);
-                            }, 500);
-                        });
-                    });
-                }, 500);
-            }
-        });
-        return false;
     }
 
 });

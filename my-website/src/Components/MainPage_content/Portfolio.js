@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+class Portfolio extends Component {
 
     render() {
         return (
@@ -8,9 +8,8 @@ class Header extends Component {
                 <div className="section-wrapper block">
                     <div className="content-1300">
                     <h2 className="entry-title section-title">Portfolio</h2>
-                    <p className="site-des">Coming out soon ;)</p>
 
-                        {/* <div id="portfolio-wrapper" className="relative">
+                        <div id="portfolio-wrapper" className="relative">
                             <div className="category-filter">
                                 <div className="category-filter-icon"></div>
                             </div>
@@ -20,7 +19,7 @@ class Header extends Component {
                                 <div className="button" data-filter=".video">Video</div>
                                 <div className="button" data-filter=".image">Image</div>
                             </div>
-                            <div className="portfolio-load-content-holder"></div>
+
                             <div className="grid" id="portfolio-grid">
                                 <div className="grid-sizer"></div>
 
@@ -97,7 +96,7 @@ class Header extends Component {
                                 </div>
 
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,4 +104,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Portfolio;
