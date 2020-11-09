@@ -10,7 +10,7 @@ class Portfolio extends Component {
             curentWindow: "portfoliogrid"
         }
     }
-
+    
     render() {
         return (
             <div id="portfolio" className="section">
@@ -36,7 +36,7 @@ class Portfolio extends Component {
     }
 
     changeWindow = (window) => {
-        this.setState({changeCurrentWindow: window})
+        this.setState({curentWindow: window})   
     }
 }
 
