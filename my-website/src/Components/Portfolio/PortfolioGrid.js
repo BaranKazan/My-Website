@@ -22,7 +22,7 @@ class PortfolioGrid extends Component {
                     <div className="grid-sizer"></div>
 
                     <div id="p-item-1" className="grid-item element-item p-one-third text">
-                        <a className="item-link" href="portfolio-1.html">
+                        <a className="item-link" onClick={this.changeWindow('hello')}>
                             <img src="images/portfolio1.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
@@ -34,7 +34,7 @@ class PortfolioGrid extends Component {
                     </div>
 
                     <div id="p-item-2" className="grid-item element-item p-one-third text">
-                        <a className="item-link" href="portfolio-2.html">
+                        <a className="item-link">
                             <img src="images/portfolio2.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
@@ -46,7 +46,7 @@ class PortfolioGrid extends Component {
                     </div>
 
                     <div id="p-item-3" className="grid-item element-item p-one-third text">
-                        <a className="item-link" href="portfolio-3.html">
+                        <a className="item-link">
                             <img src="images/portfolio3.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
@@ -97,6 +97,11 @@ class PortfolioGrid extends Component {
             </div>
         );
     }
+
+    changeWindow = (window) => {
+        this.props.changeWindowFunction(window)
+    }
+
 }
 
 export default PortfolioGrid;
