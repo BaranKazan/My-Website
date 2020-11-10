@@ -33,30 +33,6 @@ class PortfolioGrid extends Component {
                         </a>
                     </div>
 
-                    <div id="p-item-2" className="grid-item element-item p-one-third text">
-                        <a className="item-link">
-                            <img src="images/portfolio2.jpg" alt="" />
-                            <div className="portfolio-text-holder">
-                                <div className="portfolio-text-wrapper">
-                                    <p className="portfolio-text">Stairways</p>
-                                    <p className="portfolio-cat">Text</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div id="p-item-3" className="grid-item element-item p-one-third text">
-                        <a className="item-link">
-                            <img src="images/portfolio3.jpg" alt="" />
-                            <div className="portfolio-text-holder">
-                                <div className="portfolio-text-wrapper">
-                                    <p className="portfolio-text">Sneakers</p>
-                                    <p className="portfolio-cat">Text</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
                     {/* <div className="grid-item element-item p-one-third video">
                                     <a className="item-link" href="https://vimeo.com/199192931" data-rel="prettyPhoto[portfolio]">
                                         <img src="images/portfolio4.jpg" alt="" />

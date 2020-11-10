@@ -4,19 +4,21 @@ import HelloWorld from '../Portfolio/HelloWorld'
 
 class Portfolio extends Component {
 
-    constructor(){
+    constructor() {
         super()
         this.state = {
             curentWindow: "portfoliogrid"
         }
     }
-    
+
     render() {
         return (
             <div id="portfolio" className="section">
                 <div className="section-wrapper block">
                     <div className="content-1300">
-                        <h2 className="entry-title section-title">Portfolio</h2>
+                        {this.state.curentWindow === "portfoliogrid" &&
+                            <h2 className="entry-title section-title">Portfolio</h2>
+                        }
                         <div id="portfolio-wrapper" className="relative">
                             {this.changeCurrentWindow()}
                         </div>
@@ -27,16 +29,16 @@ class Portfolio extends Component {
     }
 
     changeCurrentWindow = () => {
-        switch(this.state.curentWindow){
+        switch (this.state.curentWindow) {
             case 'portfoliogrid':
-                return <PortfolioGrid changeWindowFunction={this.changeWindow}/>
-            default: 
-                return <HelloWorld/>
+                return <PortfolioGrid changeWindowFunction={this.changeWindow} />
+            default:
+                return <HelloWorld changeWindowFunction={this.changeWindow} />
         }
     }
 
     changeWindow = (window) => {
-        this.setState({curentWindow: window})   
+        this.setState({ curentWindow: window })
     }
 }
 
