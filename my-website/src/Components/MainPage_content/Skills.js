@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 
 class Skills extends Component {
 
+    constructor() {
+        super();
+
+        this.competencies = ['TDD', 'DDD', 'CI', 'Design Patterns', 'Object-oriented Design', 'CAD', 'Artificial Intelligence', 'Machine Learning', 'HTML', 'XML',
+            'CSS', 'React.js', 'Vue.js', 'Node.js', 'Mobile App Development', '.NET', 'Xamarin', 'Maven', 'Linux'];
+    }
+
     render() {
         return (
             <div id="skills" className="section">
@@ -73,25 +80,11 @@ class Skills extends Component {
                         </div>
                         <div className="row">
                             <div className="competencies">
-                                <span>TDD</span>
-                                <span>DDD</span>
-                                <span>CI</span>
-                                <span>Design Patterns</span>
-                                <span>Object-oriented Design</span>
-                                <span>CAD</span>
-                                <span>Artificiell intelligens</span>
-                                <span>Machine Learning</span>
-                                <span>HTML</span>
-                                <span>XML</span>
-                                <span>CSS</span>
-                                <span>React.js</span>
-                                <span>Vue.js</span>
-                                <span>Node.js</span>
-                                <span>Mobile App Developer</span>
-                                <span>.NET</span>
-                                <span>Xamarin</span>
-                                <span>Maven</span>
-                                <span>Linux</span>
+                                {
+                                    this.competencies.sort().map((value, i) => {
+                                        return <span key={i}>{value}</span>
+                                    })
+                                }
                             </div>
                         </div>
                     </div>
