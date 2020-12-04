@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PortfolioGrid from '../Portfolio/PortfolioGrid'
-import HelloWorld from '../Portfolio/HelloWorld'
+import TransferLearning from '../Portfolio/TransferLearning'
 
 class Portfolio extends Component {
 
@@ -29,11 +29,12 @@ class Portfolio extends Component {
     }
 
     changeCurrentWindow = () => {
+        
         switch (this.state.curentWindow) {
-            case 'portfoliogrid':
-                return <PortfolioGrid changeWindowFunction={this.changeWindow} />
+            case 'transferLearning':
+                return <TransferLearning changeWindowFunction={this.changeWindow} />
             default:
-                return <HelloWorld changeWindowFunction={this.changeWindow} />
+                return <PortfolioGrid changeWindowFunction={this.changeWindow} />
         }
     }
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class HelloWorld extends Component {
+class TransferLearning extends Component {
 
     render() {
         return (
@@ -97,4 +97,4 @@ class HelloWorld extends Component {
     }
 }
 
-export default HelloWorld;
+export default TransferLearning;
