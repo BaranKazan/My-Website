@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from './Components/NavBar';
 import MainPage from "./Components/MainPage";
-//import Index from "./Components/Index"
 
 class App extends Component {
 
@@ -10,6 +9,7 @@ class App extends Component {
       <div className="app">
         <NavBar/>
         <MainPage/>
+        <script src="../js/main.js" type='text/javascript'/>
       </div>
 
     );

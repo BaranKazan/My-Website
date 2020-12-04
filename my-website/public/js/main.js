@@ -36,6 +36,10 @@ $(function () {
         setActiveMenuItem();
     });
 
+    $('#portfolio').on('click', '.close-icon', function () {
+        setTimeout(setPortfolio, 0);
+   });
+
 
 
 //------------------------------------------------------------------------

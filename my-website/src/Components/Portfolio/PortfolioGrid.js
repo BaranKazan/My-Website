@@ -4,7 +4,7 @@ class PortfolioGrid extends Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <div className="category-filter">
                     <div className="category-filter-icon"></div>
                 </div>
@@ -26,8 +26,8 @@ class PortfolioGrid extends Component {
                             <img src="images/portfolio1.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
-                                    <p className="portfolio-text">Home</p>
-                                    <p className="portfolio-cat">Text</p>
+                                    <p className="portfolio-text">Transfer Learning</p>
+                                    <p className="portfolio-cat">Machine Learning</p>
                                 </div>
                             </div>
                         </a>
@@ -70,7 +70,7 @@ class PortfolioGrid extends Component {
                                 </div> */}
 
                 </div>
-            </div>
+            </React.Fragment>
         );
     }
 
