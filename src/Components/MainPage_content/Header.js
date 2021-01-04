@@ -10,7 +10,7 @@ class Header extends Component {
                         <p className="site-des">Hello. My name is</p>
                         <h1 className="entry-title">Baran Kazan</h1>
                         <p className="site-info">
-                            I'm an educated computer engineer and, my ambition is to be the best full-stack developer as well as I can .
+                        I'm a graduated computer engineer and one of my ambitions is to become as good of a full-stack developer as I can be.
                                 </p>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/baran-kazan-13927317a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
