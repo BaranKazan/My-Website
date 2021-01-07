@@ -22,7 +22,7 @@ class PortfolioGrid extends Component {
                     <div className="grid-sizer"></div>
 
                     <div id="p-item-1" className="grid-item element-item p-one-third text">
-                        <a className="item-link" href="#/" onClick={() => this.changeWindow('transferLearning')}>
+                        <a className="item-link" onClick={() => this.changeWindow('transferLearning')}>
                             <img src="images/portfolio1.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">

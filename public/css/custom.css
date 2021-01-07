@@ -219,6 +219,10 @@ div.pp_default .pp_next:hover{
     background-image: url(../images/nav_right.png);
 }
 
+a.item-link{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1020px) {
     .competencies span{
         width: 50%;
