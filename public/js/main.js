@@ -38,6 +38,7 @@ $(function () {
 
     $('#portfolio').on('click', '.close-icon', function () {
         setTimeout(setPortfolio, 0);
+        setTimeout(setPrettyPhoto, 0);
    });
 
 

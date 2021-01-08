@@ -21,9 +21,9 @@ class PortfolioGrid extends Component {
                 <div className="grid" id="portfolio-grid">
                     <div className="grid-sizer"></div>
 
-                    <div id="p-item-1" className="grid-item element-item p-one-third text">
-                        <a className="item-link" onClick={() => this.changeWindow('transferLearning')}>
-                            <img src="images/portfolio1.jpg" alt="" />
+                    <div className="grid-item element-item p-one-third text">
+                        <a className="item-link" href="#/" onClick={() => this.changeWindow('transferLearning')}>
+                            <img src="images/portfolio/portfolio2.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
                                     <p className="portfolio-text">Transfer Learning</p>
@@ -35,7 +35,7 @@ class PortfolioGrid extends Component {
 
                     <div className="grid-item element-item p-one-third video">
                         <a className="item-link" href="https://youtu.be/qBiA_po8TYM" data-rel="prettyPhoto[portfolio]">
-                            <img src="images/portfolio4.jpg" alt="" />
+                            <img src="images/portfolio/portfolio1.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
                                     <p className="portfolio-text">When the code successful builds</p>

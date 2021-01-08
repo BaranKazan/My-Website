@@ -11,7 +11,7 @@ class Service extends Component {
                             <div className="one-half width-55">
                                 <div className="services-wrapper">
                                     <div className="service-holder">
-                                        <img src="images/service1.png" alt="" />
+                                        <img src="images/service/service1.png" alt="" />
                                         <h4 className="service-title">Front-end</h4>
                                         <div className="service-text">
                                             Developing modern looking graphical interfaces for the user to have a wonderful experience interfaces to interact with.
@@ -19,7 +19,7 @@ class Service extends Component {
                                     </div>
 
                                     <div className="service-holder m-right-0">
-                                        <img src="images/service2.png" alt="" />
+                                        <img src="images/service/service2.png" alt="" />
                                         <h4 className="service-title">Back-end</h4>
                                         <div className="service-text">
                                             Developing code using different design patterns and making sure that it works by creating a unit or integration test.
@@ -27,7 +27,7 @@ class Service extends Component {
                                     </div>
 
                                     <div className="service-holder m-bottom-0">
-                                        <img src="images/service3.png" alt="" />
+                                        <img src="images/service/service3.png" alt="" />
                                         <h4 className="service-title">Clean code</h4>
                                         <div className="service-text">
                                             Writing non-repetitive as well as easily understandable and changeable code for other developers to understand.
@@ -35,7 +35,7 @@ class Service extends Component {
                                     </div>
 
                                     <div className="service-holder m-right-0 m-bottom-0">
-                                        <img src="images/service4.png" alt="" />
+                                        <img src="images/service/service4.png" alt="" />
                                         <h4 className="service-title">Adaptive</h4>
                                         <div className="service-text">
                                             Responsive to the changes that are required by the customer and can comfortably fit in a team environment.
