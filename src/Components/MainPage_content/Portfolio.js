@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PortfolioGrid from '../Portfolio/PortfolioGrid'
 import TransferLearning from '../Portfolio/TransferLearning'
-import Sportstats from '../Portfolio/Sportstats'
+//import Sportstats from '../Portfolio/Sportstats'
 
 class Portfolio extends Component {
 
