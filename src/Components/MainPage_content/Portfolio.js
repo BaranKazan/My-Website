@@ -34,10 +34,8 @@ class Portfolio extends Component {
         switch (this.state.curentWindow) {
             case 'transferLearning':
                 return <TransferLearning changeWindowFunction={this.changeWindow} />
-                    {/*
             case 'sportstats':
                 return <Sportstats changeWindowFunction={this.changeWindow}/>
-                */}
             default:
                 return <PortfolioGrid changeWindowFunction={this.changeWindow} />
         }
