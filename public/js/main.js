@@ -36,6 +36,10 @@ $(function () {
         setActiveMenuItem();
     });
 
+    $('#portfolio').on('click', '.item-link', function () {
+        setTimeout(imageSliderSetUp, 0);
+   });
+
     $('#portfolio').on('click', '.close-icon', function () {
         setTimeout(setPortfolio, 0);
         setTimeout(setPrettyPhoto, 0);

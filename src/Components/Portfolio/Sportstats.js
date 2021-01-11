@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TransferLearning extends Component {
+class Sportstats extends Component {
 
     render() {
         return (
@@ -27,6 +27,31 @@ class TransferLearning extends Component {
                             <p>
                                 <a className="button" href="https://www.diva-portal.org/smash/record.jsf?dswid=-8740&pid=diva2%3A1468015&c=1&searchType=SIMPLE&language=en&query=Additional+Classes+Effect+on+Model+Accuracy+using+Transfer+Learning&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all" target="_blank" rel="noopener noreferrer">Check Project</a>
                             </p>
+                        </div>
+
+                        <div className="one-half width-55 last">
+                            <div className="image-slider-wrapper relative">
+                                <div className="owl-carousel owl-theme image-slider slider" data-speed="2000" data-auto="false" data-hover="true">
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image1.png" alt="" />
+                                    </div>
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image2.png" alt="" />
+                                    </div>
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image3.png" alt="" />
+                                    </div>
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image4.png" alt="" />
+                                    </div>
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image5.png" alt="" />
+                                    </div>
+                                    <div className="owl-item">
+                                        <img src="images/portfolio/sportstats/image6.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,4 +105,4 @@ class TransferLearning extends Component {
     }
 }
 
-export default TransferLearning;
+export default Sportstats;

@@ -22,8 +22,20 @@ class PortfolioGrid extends Component {
                     <div className="grid-sizer"></div>
 
                     <div className="grid-item element-item p-one-third text">
+                        <a className="item-link" href="#/" onClick={() => this.changeWindow('sportstats')}>
+                            <img src="images/portfolio/portfolioGrid/portfolio3.jpg" alt="" />
+                            <div className="portfolio-text-holder">
+                                <div className="portfolio-text-wrapper">
+                                    <p className="portfolio-text">Sportstats</p>
+                                    <p className="portfolio-cat">RESTful API w/ Website</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="grid-item element-item p-one-third text">
                         <a className="item-link" href="#/" onClick={() => this.changeWindow('transferLearning')}>
-                            <img src="images/portfolio/portfolio2.jpg" alt="" />
+                            <img src="images/portfolio/portfolioGrid/portfolio2.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
                                     <p className="portfolio-text">Transfer Learning</p>
@@ -35,7 +47,7 @@ class PortfolioGrid extends Component {
 
                     <div className="grid-item element-item p-one-third video">
                         <a className="item-link" href="https://youtu.be/qBiA_po8TYM" data-rel="prettyPhoto[portfolio]">
-                            <img src="images/portfolio/portfolio1.jpg" alt="" />
+                            <img src="images/portfolio/portfolioGrid/portfolio1.jpg" alt="" />
                             <div className="portfolio-text-holder">
                                 <div className="portfolio-text-wrapper">
                                     <p className="portfolio-text">When the code successful builds</p>
