@@ -19,7 +19,7 @@ class Skills extends Component {
 
                             <div className="skill-circle-holder">
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.88" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.84" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">Java</p>
@@ -29,18 +29,18 @@ class Skills extends Component {
                                     <div className="skill-circle-wrapper relative" data-value="0.81" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
-                                    <p className="skill-circle-text">Python</p>
-                                </div>
-
-                                <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.80" data-color="#d43641" data-empty-color="#522629">
-                                        <span className="skill-circle-num"></span>
-                                    </div>
                                     <p className="skill-circle-text">C#</p>
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.76" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.78" data-color="#d43641" data-empty-color="#522629">
+                                        <span className="skill-circle-num"></span>
+                                    </div>
+                                    <p className="skill-circle-text">Python</p>
+                                </div>
+
+                                <div className="skill-circle">
+                                    <div className="skill-circle-wrapper relative" data-value="0.74" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">JavaScript</p>
@@ -55,11 +55,11 @@ class Skills extends Component {
                                     <div className="skill-holder">
                                         <div className="skill-text">
                                             <div className="skill">
-                                                <div className="skill-fill" data-fill="93%"></div>
+                                                <div className="skill-fill" data-fill="86%"></div>
                                             </div>
                                             <span>Agile Software Development</span>
                                         </div>
-                                        <div className="skill-percent">93%</div>
+                                        <div className="skill-percent">86%</div>
                                     </div>
                                 </div>
                             </div>
