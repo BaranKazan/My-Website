@@ -9,10 +9,10 @@ class Sportstats extends Component {
                     <div onClick={() => this.props.changeWindowFunction('portfoliogrid')} className="close-icon" />
                     <div className="row">
                         <div className="one-half width-40">
-                            <h2 className="entry-title section-title">Transfer Learning</h2>
+                            <h2 className="entry-title section-title">RESTful API w/ Website</h2>
 
                             <p className="section-info">
-                                Additional Classes Effect on Model Accuracy using Transfer Learning
+                                Sports Statistics API
                                             </p>
 
                             <p>
@@ -30,26 +30,42 @@ class Sportstats extends Component {
                         </div>
 
                         <div className="one-half width-55 last">
-                            <div className="image-slider-wrapper relative">
-                                <div className="owl-carousel owl-theme image-slider slider" data-speed="2000" data-auto="false" data-hover="true">
-                                    <div className="owl-item">
+                            <div class="slider">
+                                <div class="slides">
+                                    <input type="radio" name="radio-btn" id="radio1" />
+                                    <input type="radio" name="radio-btn" id="radio2" />
+                                    <input type="radio" name="radio-btn" id="radio3" />
+                                    <input type="radio" name="radio-btn" id="radio4" />
+                                    <input type="radio" name="radio-btn" id="radio5" />
+                                    <input type="radio" name="radio-btn" id="radio6" />
+                                    
+                                    <div class="slide first">
                                         <img src="images/portfolio/sportstats/image1.png" alt="" />
                                     </div>
-                                    <div className="owl-item">
+                                    <div class="slide">
                                         <img src="images/portfolio/sportstats/image2.png" alt="" />
                                     </div>
-                                    <div className="owl-item">
+                                    <div class="slide">
                                         <img src="images/portfolio/sportstats/image3.png" alt="" />
                                     </div>
-                                    <div className="owl-item">
+                                    <div class="slide">
                                         <img src="images/portfolio/sportstats/image4.png" alt="" />
                                     </div>
-                                    <div className="owl-item">
+                                    <div class="slide">
                                         <img src="images/portfolio/sportstats/image5.png" alt="" />
                                     </div>
-                                    <div className="owl-item">
+                                    <div class="slide">
                                         <img src="images/portfolio/sportstats/image6.png" alt="" />
                                     </div>
+                                </div>
+                                
+                                <div class="navigation">
+                                    <label for="radio1" class="btn"></label>
+                                    <label for="radio2" class="btn"></label>
+                                    <label for="radio3" class="btn"></label>
+                                    <label for="radio4" class="btn"></label>
+                                    <label for="radio5" class="btn"></label>
+                                    <label for="radio6" class="btn"></label>
                                 </div>
                             </div>
                         </div>
