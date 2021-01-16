@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-responsive-carousel';
 
 class Sportstats extends Component {
 
@@ -19,60 +20,42 @@ class Sportstats extends Component {
                                 The sports statistics API was developed and deployed as my first RESTful API project. The API communicates with the database that each table has connections with the other table, such as all players are connected to a team. The API has functionalities such as showing the history and upcoming matches of a team, listing all the games between two inputted dates, showing all the players in a team, etc. Creating unit and integration testing was also a considerable part of the API to ensure that every service layer functionalities works as intended. There is also a website that was developed for the API after when the API has been deployed.
 
                                             </p>
-                                            <p>
+                            <p>
                                 <b>Programing languages:</b> Java, JavaScript, MySQL
                                             </p>
                             <p>
                                 <b>Frameworks and Formats:</b> React, Mockito, JSON
                                             </p>
-                                            <p>
+                            <p>
                                 <b>Design patterns:</b> DDD, TDD, Command, DAO, Singleton
                                             </p>
-                                            <p>
+                            <p>
                                 <b>Tests:</b> Junit and Integration
                                             </p>
 
                         </div>
 
                         <div className="one-half width-55 last">
-                            <div class="slider">
-                                <div class="slides">
-                                    <input type="radio" name="radio-btn" id="radio1" />
-                                    <input type="radio" name="radio-btn" id="radio2" />
-                                    <input type="radio" name="radio-btn" id="radio3" />
-                                    <input type="radio" name="radio-btn" id="radio4" />
-                                    <input type="radio" name="radio-btn" id="radio5" />
-                                    <input type="radio" name="radio-btn" id="radio6" />
-
-                                    <div class="slide first">
-                                        <img src="images/portfolio/sportstats/image1.png" alt="" />
-                                    </div>
-                                    <div class="slide">
-                                        <img src="images/portfolio/sportstats/image2.png" alt="" />
-                                    </div>
-                                    <div class="slide">
-                                        <img src="images/portfolio/sportstats/image3.png" alt="" />
-                                    </div>
-                                    <div class="slide">
-                                        <img src="images/portfolio/sportstats/image4.png" alt="" />
-                                    </div>
-                                    <div class="slide">
-                                        <img src="images/portfolio/sportstats/image5.png" alt="" />
-                                    </div>
-                                    <div class="slide">
-                                        <img src="images/portfolio/sportstats/image6.png" alt="" />
-                                    </div>
+                            <Carousel>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image1.png" alt=""/>
                                 </div>
-
-                                <div class="navigation">
-                                    <label for="radio1" class="btn"></label>
-                                    <label for="radio2" class="btn"></label>
-                                    <label for="radio3" class="btn"></label>
-                                    <label for="radio4" class="btn"></label>
-                                    <label for="radio5" class="btn"></label>
-                                    <label for="radio6" class="btn"></label>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image2.png" alt=""/>
                                 </div>
-                            </div>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image3.png" alt=""/>
+                                </div>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image4.png" alt=""/>
+                                </div>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image5.png" alt=""/>
+                                </div>
+                                <div>
+                                    <img src="images/portfolio/sportstats/image6.png" alt=""/>
+                                </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
