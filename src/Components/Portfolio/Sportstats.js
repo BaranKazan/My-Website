@@ -17,7 +17,7 @@ class Sportstats extends Component {
                                             </p>
 
                             <p>
-                                The sports statistics API was developed and deployed as my first RESTful API project. The API communicates with the database that each table has connections with the other table, such as all players are connected to a team. The API has functionalities such as showing the history and upcoming matches of a team, listing all the games between two inputted dates, showing all the players in a team, etc. Creating unit and integration testing was also a considerable part of the API to ensure that every service layer functionalities works as intended. There is also a website that was developed for the API after when the API has been deployed.
+                            The sports statistics API was developed and deployed as my biggest RESTful API project. The API communicates with the database that each table has connections with the other table, such as all players are connected to a team. The API has functionalities such as showing the history and upcoming matches of a team, listing all the games between two inputted dates, showing all the players in a team, etc. Creating unit and integration testing was also a considerable part of the API to ensure that every service layer functionalities works as intended. There is also a website that was developed for the API after when the API has been deployed.
 
                                             </p>
                             <p>
