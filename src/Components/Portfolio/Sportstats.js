@@ -24,7 +24,7 @@ class Sportstats extends Component {
                                 <b>Programing languages:</b> Java, JavaScript, MySQL
                                             </p>
                             <p>
-                                <b>Frameworks and Formats:</b> React, Mockito, JSON
+                                <b>Frameworks and Formats:</b> React, Mockito, Maven, JSON
                                             </p>
                             <p>
                                 <b>Design patterns:</b> DDD, TDD, Command, DAO, Singleton
