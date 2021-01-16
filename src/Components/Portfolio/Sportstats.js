@@ -32,6 +32,7 @@ class Sportstats extends Component {
                             <p>
                                 <b>Tests:</b> Junit and Integration
                                             </p>
+                                            <p>
                                 <b>Agile Development Method:</b> SCRUM
                                             </p>
                                             <p>
@@ -41,7 +42,7 @@ class Sportstats extends Component {
                         </div>
 
                         <div className="one-half width-55 last">
-                            <Carousel autoPlay={true} showIndicators={false} useKeyboardArrows={true} dynamicHeight={true}>
+                            <Carousel autoPlay={true} showIndicators={false} useKeyboardArrows={true} dynamicHeight={true} infiniteLoop={true}>
                                 <div>
                                     <img src="images/portfolio/sportstats/image1.png" alt=""/>
                                 </div>
