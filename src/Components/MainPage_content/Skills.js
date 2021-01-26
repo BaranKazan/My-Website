@@ -6,7 +6,7 @@ class Skills extends Component {
         super();
 
         this.competencies = ['TDD', 'DDD', 'CI', 'Design Patterns', 'Object-oriented Design', 'CAD', 'Artificial Intelligence', 'Machine Learning', 'HTML', 'XML',
-            'CSS', 'React.js', 'Vue.js', 'Node.js', 'Mobile App Development', '.NET', 'Xamarin', 'Maven', 'Linux'];
+            'CSS', 'React.js', 'Vue.js', 'Node.js', 'Mobile App Development', '.NET', 'Xamarin', 'Maven', 'Linux', 'Docker', 'SQL'];
     }
 
     render() {
