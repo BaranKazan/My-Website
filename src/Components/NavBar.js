@@ -40,7 +40,7 @@ class NavBar extends Component {
                                 <div className="my-info-wrapper">
                                     <div className="my-info">
                                         <p className="my-info-title">NAME</p>
-                                        <p className="my-info-content">Baran Kazan</p>
+                                        <p className="my-info-content">Hasse Kazan</p>
                                     </div>
 
                                     <div className="my-info">

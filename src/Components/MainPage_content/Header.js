@@ -8,7 +8,7 @@ class Header extends Component {
                 <div className="section-wrapper block">
                     <div className="home-left-part">
                         <p className="site-des">Hello. My name is</p>
-                        <h1 className="entry-title">Baran Kazan</h1>
+                        <h1 className="entry-title">Hasse Kazan</h1>
                         <p className="site-info">
                         I'm a graduated computer engineer and one of my ambitions is to become one of the best full-stack developers.  
                                 </p>
