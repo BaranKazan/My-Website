@@ -60,7 +60,7 @@ class Service extends Component {
                                         </p>
 
                                 <div className="button-group-wrapper">
-                                    <a className="button" href="https://drive.google.com/file/d/1Vn0faYA3k-t-4y1aK6mdfh0kXYNJRn5c/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+                                    <a className="button" href="https://drive.google.com/file/d/1QzHtnCA9GEo3dRCSoBF4BB8nP4YqSM9j/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
                                     <a href="#portfolio" className="button">Check My Portfolio</a>
                                 </div>
                             </div>
