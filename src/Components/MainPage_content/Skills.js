@@ -59,7 +59,7 @@ class Skills extends Component {
                                             </div>
                                             <span>Agile Software Development</span>
                                         </div>
-                                        <div className="skill-percent">86%</div>
+                                        <div className="skill-percent">89%</div>
                                     </div>
                                 </div>
                             </div>
