@@ -8,14 +8,14 @@ class Header extends Component {
                 <div className="section-wrapper block">
                     <div className="home-left-part">
                         <p className="site-des">Hello. My name is</p>
-                        <h1 className="entry-title">Hasse Kazan</h1>
+                        <h1 className="entry-title">Baran Kazan</h1>
                         <p className="site-info">
-                        I'm a graduated computer engineer and one of my ambitions is to become one of the best full-stack developers.  
+                            I'm a graduated computer engineer and one of my ambitions is to become one of the best full-stack developers.
                                 </p>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/baran-kazan-13927317a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                             <a href="https://www.instagram.com/barankazan/?hl=en" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
-                            <br/>
+                            <br />
                             <a href="https://github.com/BaranKazan" target="_blank" rel="noopener noreferrer">GITHUB</a>
                             <a href="https://gitlab.com/BaranKazan" target="_blank" rel="noopener noreferrer">GITLAB</a>
                         </div>
