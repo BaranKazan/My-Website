@@ -47,7 +47,7 @@ class Service extends Component {
                             <div className="one-half width-40 last">
                                 <h2 className="entry-title section-title">Services</h2>
                                 <p className="section-info">
-                                    I chose to be a full-stack developer because I like doing every kind of development.
+                                    I chose to be a Software Developer because I like doing every kind of development.
                                         </p>
                                 <p>
                                     From the beginning, it was complicated to choose if I wanted to be a front- or back-end developer. Then I asked myself, why not both? I choose to be both a front-end and back-end developer because I like designing graphical interfaces since I started programming and languages such as Java, Python, and C# are currently my favorite languages that are mostly used for back-end services.

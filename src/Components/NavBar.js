@@ -45,7 +45,7 @@ class NavBar extends Component {
 
                                 <div className="my-info">
                                     <p className="my-info-title">ROLE</p>
-                                    <p className="my-info-content">Computer Engineer</p>
+                                    <p className="my-info-content">Software Developer</p>
                                 </div>
 
                                 <div className="my-info">
