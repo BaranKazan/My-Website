@@ -6,7 +6,8 @@ class Skills extends Component {
         super();
 
         this.competencies = ['TDD', 'DDD', 'CI', 'Design Patterns', 'Object-oriented Design', 'CAD', 'Artificial Intelligence', 'Machine Learning', 'HTML', 'XML',
-            'CSS', 'React.js', 'Vue.js', 'Node.js', 'Mobile App Development', '.NET', 'Xamarin', 'Maven', 'Linux', 'Docker', 'SQL', 'TypeScript'];
+            'CSS', 'React.js', 'Vue.js', 'Node.js', 'Mobile App Development', '.NET', 'Xamarin', 'Maven', 'Linux', 'Docker', 'SQL', 'TypeScript', 'Unity', 
+            'Spring Framework'];
     }
 
     render() {
@@ -40,7 +41,7 @@ class Skills extends Component {
                                 </div>
 
                                 <div className="skill-circle">
-                                    <div className="skill-circle-wrapper relative" data-value="0.74" data-color="#d43641" data-empty-color="#522629">
+                                    <div className="skill-circle-wrapper relative" data-value="0.67" data-color="#d43641" data-empty-color="#522629">
                                         <span className="skill-circle-num"></span>
                                     </div>
                                     <p className="skill-circle-text">JavaScript</p>
