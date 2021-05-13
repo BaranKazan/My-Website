@@ -36,7 +36,7 @@ class Sportstats extends Component {
                                 <b>Agile Development Method:</b> SCRUM
                                             </p>
                                             <p>
-                                <a className="button" href="https://gitlab.com/hasshe/pvt-projekt" target="_blank" rel="noopener noreferrer">Check Project</a>
+                                <a className="button" href="https://github.com/BaranKazan/Sportstats" target="_blank" rel="noopener noreferrer">Check Project</a>
                             </p>
 
                         </div>
