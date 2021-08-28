@@ -27,7 +27,7 @@ class NavBar extends Component {
                                     <nav id="header-main-menu">
                                         <ul className="main-menu sm sm-clean">
                                             <li><a href="#home">Home</a></li>
-                                            <li><a href="#service">Service</a></li>
+                                            {/* <li><a href="#service">Service</a></li> */}
                                             <li><a href="#portfolio">Portfolio</a></li>
                                             <li><a href="#resume">Resume</a></li>
                                             <li><a href="#skills">Skills</a></li>

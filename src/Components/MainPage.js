@@ -14,7 +14,7 @@ class MainPage extends Component {
             <div className="content-right">
                 <div className="content-right-wrapper">
                     <Header/>
-                    <Service/>
+                    {/* <Service/> */}
                     <Portfolio/>
                     <Resume/>
                     <Skills/>
