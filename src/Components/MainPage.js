@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from "./MainPage_content/Header";
-import Service from "./MainPage_content/Service";
+// import Service from "./MainPage_content/Service";
 import Portfolio from "./MainPage_content/Portfolio"
 import Resume from "./MainPage_content/Resume"
 import Skills from "./MainPage_content/Skills"
